@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid white;
+}
+.displays {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 150px 50px;
+  grid-template-rows: 500px;
+  grid-column-gap: 12px;
+  grid-row-gap: 0px;
+}

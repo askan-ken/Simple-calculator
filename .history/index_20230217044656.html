@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script defer src="./script.js"></script> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        color: white;
+      }
+      .button{
+        display: flex;
+        gap: 30px;
+      }
+      button {
+        width: 100px;
+        height: 30px;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>count</h1>
+    <div id="count" value="1">1</div>
+    <br />
+    <div class="button">
+      <button id="plus">add</button>
+      <button id="minus">subtract</button>
+      <!-- <button id="multiply">multiply</button>
+      <button id="divide">devide</button>
+      <button id="modulus">modulus</button>
+      <button id="exponent">exponent</button>
+      <button id="sqrt">square root</button>
+      <button id="natlog">natural logarithm</button> -->
+    </div>
+
+
+    <script>
+      const plus = document.getElementById("plus");
+      const minus = document.getElementById("minus");
+      const counts =  document.querySelectorAll('#count')
+
+      function addNumber(number){
+        for(let i = 0; i < counts.length; i++){
+          counts[i].textContent = parseInt(counts[i].textContent) + number
+        }
+      }
+      function subtractNumber(number){
+        for(let i = 0; i < counts.length; i++){
+          counts[i].textContent = parseIn
+        }
+      }
+
+      plus.addEventListener("click", function(){
+        addNumber(1)
+      })
+
+
+
+    </script>
+  </body>
+</html>

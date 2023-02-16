@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 2rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.displays {
+  width: 240px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 180px 50px;
+  grid-template-rows: 230px;
+  grid-column-gap: 12px;
+  grid-row-gap: 0px;
+}
+.number {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.numbers {
+  background-color: orange;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.zero {
+  position: relative;
+  left: 59px;
+}
+
+.operator {
+  display: grid;
+  grid-template-columns: 50px;
+  grid-template-rows: repeat(5, 50px);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+}
+.operators{
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+}
+.samadengan{
+    position: relative;
+    right: 60px;
+}

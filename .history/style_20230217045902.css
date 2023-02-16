@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    fle
+    gap: 30px;
+}
+
+
+.displays{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+
+}
