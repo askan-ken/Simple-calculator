@@ -81,7 +81,7 @@ function clearCalculator() {
     currentOperator = null;
     leftOperand = "";
     rightOperand = "";
-    display.innerText = "0";
+    display.innerText = "";
 }
 
 clear.addEventListener('click', clearCalculator);
